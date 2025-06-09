@@ -9,6 +9,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 from dotenv import load_dotenv
 
+# load env
 load_dotenv()
 
 bot = Bot(token=os.getenv('TELEGRAM_BOT_TOKEN'))
